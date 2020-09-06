@@ -1,0 +1,35 @@
+{
+  apps: [
+    {
+      title: "Application One",
+      subtitle: "Additional text one",
+      icon: "mdi-cog",
+      url: "http://flexis.com",
+      status: [
+        { label: "Import completed", status: "info" },
+        { label: "21 overdue", status: "error", icon: "alert" }
+      ]
+    },
+    {
+      title: "Application Two",
+      subtitle: "Additional text two",
+      icon: "mdi-factory",
+      url: "http://flexis.com",
+      status: [{ label: "something went wrong", status: "warning" }]
+    },
+    {
+      title: "Application Three",
+      subtitle: "Additional text three",
+      icon: "mdi-truck",
+      url: "http://flexis.com",
+      status: [{ label: "Running fine", status: "info" }]
+    },
+    {
+      title: "Application Four",
+      subtitle: "",
+      icon: "mdi-engine",
+      url: "http://flexis.com",
+      status: [{ label: "Running fine", status: "info" }]
+    }
+  ]
+}
